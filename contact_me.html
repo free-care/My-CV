@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>My Contact</title>
+	</head>
+
+	<body>
+		<h3>My contact include:</h3>
+		<table cellspacing="40">
+			<tr>
+				<th>Address</th>
+				<td>Ibadan, Nigeria</td>
+			</tr>
+			<tr>
+				<th>Phone No</th>
+				<td>2347046592244</td>
+			</tr>
+			<tr>
+				<th>Email</th>
+				<td>abdulrahmonalagunfon@gmail.com</td>
+			</tr>
+		</table>
+		<hr>
+		<form action="mailto:abdulrahmonalagunfon@gmail.com" method="post" enctype="text/plain">
+			<table cellspacing=30px>
+				<tr>
+					<td>
+						<label>Name:</label>
+						<input type="text" name="sender's_name">
+					</td>
+					<td>
+						<label>Email:</label>
+						<input type="email" name="sender's_email">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Upload your CV link:</label>
+						<input type="link" name="sender's_CV">
+					</td>
+					<td>
+						<label>Your Message:</label>
+						<textarea type="text" name="sender's_message" rows=5 cols=20>Your Message</textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<!-- Declaring empty cell -->
+					</td>
+					<td>
+						<input type="submit">
+					</td>
+				</tr>
+			</table>
+		</form>
+		<hr>
+	</body>
+</html>
